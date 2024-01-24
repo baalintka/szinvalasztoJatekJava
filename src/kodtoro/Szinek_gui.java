@@ -581,10 +581,7 @@ public class Szinek_gui extends javax.swing.JFrame {
         gombLista.add(valasztott2);
         gombLista.add(valasztott3);
         gombLista.add(valasztott4);
-        valasztott1.setBackground(Color.WHITE);
-        valasztott2.setBackground(Color.WHITE);
-        valasztott3.setBackground(Color.WHITE);
-        valasztott4.setBackground(Color.WHITE);
+        
         for (int i = 0; i < gombLista.size(); i++) {
             JButton aktGomb = gombLista.get(i);
             aktGomb.setBackground(Color.WHITE);
