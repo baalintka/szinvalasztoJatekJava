@@ -10,8 +10,24 @@ import sun.security.util.Length;
 public class Szinek_gui extends javax.swing.JFrame {
 
     ArrayList<JButton> gombLista = new ArrayList<>();
+    ArrayList<JButton> szingomb = new ArrayList<>();
     public Szinek_gui() {
         initComponents();
+        szingomb.add(kek);
+        kek.setBackground(Color.BLUE);
+        szingomb.add(piros);
+        piros.setBackground(Color.RED);
+        szingomb.add(sarga);
+        sarga.setBackground(Color.YELLOW);
+        szingomb.add(zold);
+        zold.setBackground(Color.GREEN);
+        szingomb.add(narancs);
+        narancs.setBackground(Color.ORANGE);
+        szingomb.add(rozsaszin);
+        rozsaszin.setBackground(Color.PINK);
+        
+        
+        
     }
 
     
@@ -68,7 +84,7 @@ public class Szinek_gui extends javax.swing.JFrame {
         zold = new javax.swing.JButton();
         piros = new javax.swing.JButton();
         narancs = new javax.swing.JButton();
-        lila = new javax.swing.JButton();
+        rozsaszin = new javax.swing.JButton();
         sarga = new javax.swing.JButton();
         kek = new javax.swing.JButton();
         mentes = new javax.swing.JButton();
@@ -114,26 +130,45 @@ public class Szinek_gui extends javax.swing.JFrame {
             }
         });
 
-        zold.setBackground(new java.awt.Color(0, 204, 0));
-
-        piros.setBackground(new java.awt.Color(204, 0, 0));
-        piros.addActionListener(new java.awt.event.ActionListener() {
+        zold.setBackground(new java.awt.Color(51, 255, 0));
+        zold.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pirosActionPerformed(evt);
                 szinekEvt(evt);
             }
         });
 
-        narancs.setBackground(new java.awt.Color(204, 102, 0));
+        piros.setBackground(new java.awt.Color(255, 51, 51));
+        piros.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                szinekEvt(evt);
+            }
+        });
 
-        lila.setBackground(new java.awt.Color(102, 0, 102));
+        narancs.setBackground(java.awt.Color.orange);
+        narancs.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                szinekEvt(evt);
+            }
+        });
+
+        rozsaszin.setBackground(new java.awt.Color(255, 51, 255));
+        rozsaszin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                szinekEvt(evt);
+            }
+        });
 
         sarga.setBackground(new java.awt.Color(255, 255, 51));
+        sarga.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                szinekEvt(evt);
+            }
+        });
 
         kek.setBackground(new java.awt.Color(0, 0, 255));
         kek.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                kekActionPerformed(evt);
+                szinekEvt(evt);
             }
         });
 
@@ -217,7 +252,7 @@ public class Szinek_gui extends javax.swing.JFrame {
                                 .addGap(10, 10, 10)
                                 .addComponent(narancs, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lila, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(rozsaszin, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(kek, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -331,7 +366,7 @@ public class Szinek_gui extends javax.swing.JFrame {
                             .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(zold, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lila, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rozsaszin, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(narancs, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(piros, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -354,32 +389,6 @@ public class Szinek_gui extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void pirosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pirosActionPerformed
-        
-        if (valasztott1.getBackground()==Color.WHITE) {
-            valasztott1.setBackground(Color.RED);
-        }else if(valasztott2.getBackground()==Color.WHITE){
-            valasztott2.setBackground(Color.RED);
-        }else if(valasztott3.getBackground()==Color.WHITE){
-            valasztott3.setBackground(Color.RED);
-        }else if(valasztott4.getBackground()==Color.WHITE){
-            valasztott4.setBackground(Color.RED);
-        }
-    
-    }//GEN-LAST:event_pirosActionPerformed
-
-    private void kekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kekActionPerformed
-        if (valasztott1.getBackground()==Color.WHITE) {
-            valasztott1.setBackground(Color.BLUE);
-        }else if(valasztott2.getBackground()==Color.WHITE){
-            valasztott2.setBackground(Color.BLUE);
-        }else if(valasztott3.getBackground()==Color.WHITE){
-            valasztott3.setBackground(Color.BLUE);
-        }else if(valasztott4.getBackground()==Color.WHITE){
-            valasztott4.setBackground(Color.BLUE);
-        }
-    }//GEN-LAST:event_kekActionPerformed
 
     private void UjjatekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UjjatekActionPerformed
         alaphelyzet();
@@ -410,8 +419,72 @@ public class Szinek_gui extends javax.swing.JFrame {
     }//GEN-LAST:event_valasztott4ActionPerformed
 
     private void szinekEvt(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_szinekEvt
-        JButton gmb = new JButton();
-        gmb.getS
+        JButton gmb = (JButton) evt.getSource();
+        if (gmb.getBackground() == Color.RED) {
+            
+        
+            if (valasztott1.getBackground() == Color.WHITE) {
+                valasztott1.setBackground(Color.RED);
+            } else if (valasztott2.getBackground() == Color.WHITE) {
+                valasztott2.setBackground(Color.RED);
+            } else if (valasztott3.getBackground() == Color.WHITE) {
+                valasztott3.setBackground(Color.RED);
+            } else if (valasztott4.getBackground() == Color.WHITE) {
+                valasztott4.setBackground(Color.RED);
+            }
+        }else if(gmb.getBackground() == Color.GREEN){
+            
+            if (valasztott1.getBackground() == Color.WHITE) {
+                valasztott1.setBackground(Color.GREEN);
+            } else if (valasztott2.getBackground() == Color.WHITE) {
+                valasztott2.setBackground(Color.GREEN);
+            } else if (valasztott3.getBackground() == Color.WHITE) {
+                valasztott3.setBackground(Color.GREEN);
+            } else if (valasztott4.getBackground() == Color.WHITE) {
+                valasztott4.setBackground(Color.GREEN);
+            }
+        }else if(gmb.getBackground() == Color.PINK){
+            if (valasztott1.getBackground() == Color.WHITE) {
+                valasztott1.setBackground(Color.PINK);
+            } else if (valasztott2.getBackground() == Color.WHITE) {
+                valasztott2.setBackground(Color.PINK);
+            } else if (valasztott3.getBackground() == Color.WHITE) {
+                valasztott3.setBackground(Color.PINK);
+            } else if (valasztott4.getBackground() == Color.WHITE) {
+                valasztott4.setBackground(Color.PINK);
+            }
+        }else if(gmb.getBackground() == Color.YELLOW){
+            if (valasztott1.getBackground() == Color.WHITE) {
+                    valasztott1.setBackground(Color.YELLOW);
+                } else if (valasztott2.getBackground() == Color.WHITE) {
+                    valasztott2.setBackground(Color.YELLOW);
+                } else if (valasztott3.getBackground() == Color.WHITE) {
+                    valasztott3.setBackground(Color.YELLOW);
+                } else if (valasztott4.getBackground() == Color.WHITE) {
+                    valasztott4.setBackground(Color.YELLOW);
+                }
+        }else if(gmb.getBackground() == Color.BLUE){
+            if (valasztott1.getBackground() == Color.WHITE) {
+                    valasztott1.setBackground(Color.BLUE);
+                } else if (valasztott2.getBackground() == Color.WHITE) {
+                    valasztott2.setBackground(Color.BLUE);
+                } else if (valasztott3.getBackground() == Color.WHITE) {
+                    valasztott3.setBackground(Color.BLUE);
+                } else if (valasztott4.getBackground() == Color.WHITE) {
+                    valasztott4.setBackground(Color.BLUE);
+                }
+        }else if(gmb.getBackground() == Color.ORANGE){
+           if (valasztott1.getBackground() == Color.WHITE) {
+                    valasztott1.setBackground(Color.ORANGE);
+                } else if (valasztott2.getBackground() == Color.WHITE) {
+                    valasztott2.setBackground(Color.ORANGE);
+                } else if (valasztott3.getBackground() == Color.WHITE) {
+                    valasztott3.setBackground(Color.ORANGE);
+                } else if (valasztott4.getBackground() == Color.WHITE) {
+                    valasztott4.setBackground(Color.ORANGE);
+                } 
+        
+        }
     }//GEN-LAST:event_szinekEvt
 
     
@@ -491,10 +564,10 @@ public class Szinek_gui extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton kek;
-    private javax.swing.JButton lila;
     private javax.swing.JButton mentes;
     private javax.swing.JButton narancs;
     private javax.swing.JButton piros;
+    private javax.swing.JButton rozsaszin;
     private javax.swing.JButton sarga;
     private javax.swing.JButton valasztott1;
     private javax.swing.JButton valasztott2;
@@ -508,9 +581,14 @@ public class Szinek_gui extends javax.swing.JFrame {
         gombLista.add(valasztott2);
         gombLista.add(valasztott3);
         gombLista.add(valasztott4);
+        valasztott1.setBackground(Color.WHITE);
+        valasztott2.setBackground(Color.WHITE);
+        valasztott3.setBackground(Color.WHITE);
+        valasztott4.setBackground(Color.WHITE);
         for (int i = 0; i < gombLista.size(); i++) {
             JButton aktGomb = gombLista.get(i);
             aktGomb.setBackground(Color.WHITE);
         }
+        
     }
 }
