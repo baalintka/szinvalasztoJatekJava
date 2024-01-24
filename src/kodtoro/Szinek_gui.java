@@ -613,6 +613,7 @@ public class Szinek_gui extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     private void alaphelyzet() {
+        randomszinlista.clear();
         gombLista.add(valasztott1);
         gombLista.add(valasztott2);
         gombLista.add(valasztott3);
@@ -651,7 +652,14 @@ public class Szinek_gui extends javax.swing.JFrame {
         for (int i = 0; i < 4; i++) {
             szamom=randomszam();
             Color veletlenszin=randomszin(szamom);
+           
             randomszinlista.add(veletlenszin);
+            
+                   
+                
+                
+            
+            
         }
     }
 
