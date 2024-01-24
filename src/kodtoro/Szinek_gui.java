@@ -1,36 +1,39 @@
-
 package kodtoro;
 
+import com.sun.org.apache.bcel.internal.generic.RETURN;
 import java.awt.Color;
 import java.util.ArrayList;
+import java.util.Random;
 import javax.swing.JButton;
 import sun.security.util.Length;
-
 
 public class Szinek_gui extends javax.swing.JFrame {
 
     ArrayList<JButton> gombLista = new ArrayList<>();
-    ArrayList<JButton> szingomb = new ArrayList<>();
+    ArrayList<Color> randomszinlista = new ArrayList<>();
+
     public Szinek_gui() {
         initComponents();
-        szingomb.add(kek);
-        kek.setBackground(Color.BLUE);
-        szingomb.add(piros);
-        piros.setBackground(Color.RED);
-        szingomb.add(sarga);
-        sarga.setBackground(Color.YELLOW);
-        szingomb.add(zold);
-        zold.setBackground(Color.GREEN);
-        szingomb.add(narancs);
-        narancs.setBackground(Color.ORANGE);
-        szingomb.add(rozsaszin);
-        rozsaszin.setBackground(Color.PINK);
-        
-        
-        
+        alapszinek();
+        negyszingeneralas();
+
     }
 
-    
+    private void alapszinek() {
+        
+        kek.setBackground(Color.BLUE);
+        
+        piros.setBackground(Color.RED);
+        
+        sarga.setBackground(Color.YELLOW);
+        
+        zold.setBackground(Color.GREEN);
+        
+        narancs.setBackground(Color.ORANGE);
+        
+        rozsaszin.setBackground(Color.PINK);
+    }
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -88,6 +91,10 @@ public class Szinek_gui extends javax.swing.JFrame {
         sarga = new javax.swing.JButton();
         kek = new javax.swing.JButton();
         mentes = new javax.swing.JButton();
+        gepszin1 = new javax.swing.JButton();
+        gepszin2 = new javax.swing.JButton();
+        gepszin3 = new javax.swing.JButton();
+        gepszin4 = new javax.swing.JButton();
 
         jButton43.setBackground(new java.awt.Color(204, 102, 0));
 
@@ -98,6 +105,7 @@ public class Szinek_gui extends javax.swing.JFrame {
         jButton42.setBackground(new java.awt.Color(0, 204, 0));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Kódtörő");
 
         Ujjatek.setText("Új Játék");
         Ujjatek.addActionListener(new java.awt.event.ActionListener() {
@@ -245,54 +253,63 @@ public class Szinek_gui extends javax.swing.JFrame {
                                 .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(zold, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(piros, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(narancs, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(rozsaszin, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(zold, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(piros, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(kek, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(sarga, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap())
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(narancs, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(rozsaszin, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(kek, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(sarga, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(gepszin1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(gepszin2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                        .addComponent(gepszin4, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(gepszin3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(30, 30, 30))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(mentes))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(mentes))
+                                .addComponent(valasztott1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(valasztott2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(10, 10, 10)
+                                .addComponent(valasztott3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(valasztott4, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(valasztott1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(valasztott2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(valasztott3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(valasztott4, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Ujjatek, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(22, 22, 22))))
+                                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(10, 10, 10)
+                                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(10, 10, 10)
+                                .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Ujjatek, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(22, 22, 22))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -318,24 +335,35 @@ public class Szinek_gui extends javax.swing.JFrame {
                     .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(gepszin3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(gepszin4, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(gepszin2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(gepszin1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -378,7 +406,7 @@ public class Szinek_gui extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -392,102 +420,106 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     private void UjjatekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UjjatekActionPerformed
         alaphelyzet();
+        szinbeallit();
     }//GEN-LAST:event_UjjatekActionPerformed
 
     private void valasztott1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_valasztott1ActionPerformed
-        if (valasztott1.getBackground()!=Color.WHITE) {
+        if (valasztott1.getBackground() != Color.WHITE) {
             valasztott1.setBackground(Color.WHITE);
         }
     }//GEN-LAST:event_valasztott1ActionPerformed
 
     private void valasztott2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_valasztott2ActionPerformed
-        if (valasztott2.getBackground()!=Color.WHITE) {
+        if (valasztott2.getBackground() != Color.WHITE) {
             valasztott2.setBackground(Color.WHITE);
         }
     }//GEN-LAST:event_valasztott2ActionPerformed
 
     private void valasztott3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_valasztott3ActionPerformed
-        if (valasztott3.getBackground()!=Color.WHITE) {
+        if (valasztott3.getBackground() != Color.WHITE) {
             valasztott3.setBackground(Color.WHITE);
         }
     }//GEN-LAST:event_valasztott3ActionPerformed
 
     private void valasztott4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_valasztott4ActionPerformed
-        if (valasztott4.getBackground()!=Color.WHITE) {
+        if (valasztott4.getBackground() != Color.WHITE) {
             valasztott4.setBackground(Color.WHITE);
         }
     }//GEN-LAST:event_valasztott4ActionPerformed
 
     private void szinekEvt(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_szinekEvt
         JButton gmb = (JButton) evt.getSource();
-        if (gmb.getBackground() == Color.RED) {
-            
         
-            if (valasztott1.getBackground() == Color.WHITE) {
+        if (gmb.getBackground() == Color.RED) {
+
+            if (valasztott1.getBackground() == Color.WHITE && valasztott2.getBackground()!=Color.RED && valasztott3.getBackground()!=Color.RED && valasztott4.getBackground()!=Color.RED) {
                 valasztott1.setBackground(Color.RED);
-            } else if (valasztott2.getBackground() == Color.WHITE) {
+            } else if (valasztott2.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.RED && valasztott3.getBackground()!=Color.RED && valasztott4.getBackground()!=Color.RED){
                 valasztott2.setBackground(Color.RED);
-            } else if (valasztott3.getBackground() == Color.WHITE) {
+            } else if (valasztott3.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.RED && valasztott2.getBackground()!=Color.RED && valasztott4.getBackground()!=Color.RED) {
                 valasztott3.setBackground(Color.RED);
-            } else if (valasztott4.getBackground() == Color.WHITE) {
+            } else if (valasztott4.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.RED && valasztott2.getBackground()!=Color.RED && valasztott3.getBackground()!=Color.RED) {
                 valasztott4.setBackground(Color.RED);
             }
-        }else if(gmb.getBackground() == Color.GREEN){
-            
-            if (valasztott1.getBackground() == Color.WHITE) {
+        } else if (gmb.getBackground() == Color.GREEN) {
+
+            if (valasztott1.getBackground() == Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE) {
                 valasztott1.setBackground(Color.GREEN);
-            } else if (valasztott2.getBackground() == Color.WHITE) {
+            } else if (valasztott2.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.GREEN && valasztott3.getBackground()!=Color.GREEN && valasztott4.getBackground()!=Color.GREEN){
                 valasztott2.setBackground(Color.GREEN);
-            } else if (valasztott3.getBackground() == Color.WHITE) {
+            } else if (valasztott3.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.GREEN && valasztott2.getBackground()!=Color.GREEN && valasztott4.getBackground()!=Color.GREEN) {
                 valasztott3.setBackground(Color.GREEN);
-            } else if (valasztott4.getBackground() == Color.WHITE) {
+            } else if (valasztott4.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.GREEN && valasztott2.getBackground()!=Color.GREEN && valasztott3.getBackground()!=Color.GREEN) {
                 valasztott4.setBackground(Color.GREEN);
             }
-        }else if(gmb.getBackground() == Color.PINK){
-            if (valasztott1.getBackground() == Color.WHITE) {
+        } else if (gmb.getBackground() == Color.PINK) {
+            
+            if (valasztott1.getBackground() == Color.WHITE && valasztott2.getBackground()!=Color.PINK && valasztott3.getBackground()!=Color.PINK && valasztott4.getBackground()!=Color.PINK) {
                 valasztott1.setBackground(Color.PINK);
-            } else if (valasztott2.getBackground() == Color.WHITE) {
+            } else if (valasztott2.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.PINK && valasztott3.getBackground()!=Color.PINK && valasztott4.getBackground()!=Color.PINK){
                 valasztott2.setBackground(Color.PINK);
-            } else if (valasztott3.getBackground() == Color.WHITE) {
+            } else if (valasztott3.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.PINK && valasztott2.getBackground()!=Color.PINK && valasztott4.getBackground()!=Color.PINK) {
                 valasztott3.setBackground(Color.PINK);
-            } else if (valasztott4.getBackground() == Color.WHITE) {
+            } else if (valasztott4.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.PINK && valasztott2.getBackground()!=Color.PINK && valasztott3.getBackground()!=Color.PINK) {
                 valasztott4.setBackground(Color.PINK);
             }
-        }else if(gmb.getBackground() == Color.YELLOW){
-            if (valasztott1.getBackground() == Color.WHITE) {
-                    valasztott1.setBackground(Color.YELLOW);
-                } else if (valasztott2.getBackground() == Color.WHITE) {
-                    valasztott2.setBackground(Color.YELLOW);
-                } else if (valasztott3.getBackground() == Color.WHITE) {
-                    valasztott3.setBackground(Color.YELLOW);
-                } else if (valasztott4.getBackground() == Color.WHITE) {
-                    valasztott4.setBackground(Color.YELLOW);
-                }
-        }else if(gmb.getBackground() == Color.BLUE){
-            if (valasztott1.getBackground() == Color.WHITE) {
-                    valasztott1.setBackground(Color.BLUE);
-                } else if (valasztott2.getBackground() == Color.WHITE) {
-                    valasztott2.setBackground(Color.BLUE);
-                } else if (valasztott3.getBackground() == Color.WHITE) {
-                    valasztott3.setBackground(Color.BLUE);
-                } else if (valasztott4.getBackground() == Color.WHITE) {
-                    valasztott4.setBackground(Color.BLUE);
-                }
-        }else if(gmb.getBackground() == Color.ORANGE){
-           if (valasztott1.getBackground() == Color.WHITE) {
-                    valasztott1.setBackground(Color.ORANGE);
-                } else if (valasztott2.getBackground() == Color.WHITE) {
-                    valasztott2.setBackground(Color.ORANGE);
-                } else if (valasztott3.getBackground() == Color.WHITE) {
-                    valasztott3.setBackground(Color.ORANGE);
-                } else if (valasztott4.getBackground() == Color.WHITE) {
-                    valasztott4.setBackground(Color.ORANGE);
-                } 
-        
+        } else if (gmb.getBackground() == Color.YELLOW) {
+            
+            if (valasztott1.getBackground() == Color.WHITE && valasztott2.getBackground()!=Color.YELLOW && valasztott3.getBackground()!=Color.YELLOW && valasztott4.getBackground()!=Color.YELLOW) {
+                valasztott1.setBackground(Color.YELLOW);
+            } else if (valasztott2.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.YELLOW && valasztott3.getBackground()!=Color.YELLOW && valasztott4.getBackground()!=Color.YELLOW){
+                valasztott2.setBackground(Color.YELLOW);
+            } else if (valasztott3.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.YELLOW && valasztott2.getBackground()!=Color.YELLOW && valasztott4.getBackground()!=Color.YELLOW) {
+                valasztott3.setBackground(Color.YELLOW);
+            } else if (valasztott4.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.YELLOW && valasztott2.getBackground()!=Color.YELLOW && valasztott3.getBackground()!=Color.YELLOW) {
+                valasztott4.setBackground(Color.YELLOW);
+            }
+        } else if (gmb.getBackground() == Color.BLUE) {
+            
+            if (valasztott1.getBackground() == Color.WHITE && valasztott2.getBackground()!=Color.BLUE && valasztott3.getBackground()!=Color.BLUE&& valasztott4.getBackground()!=Color.BLUE) {
+                valasztott1.setBackground(Color.BLUE);
+            } else if (valasztott2.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.BLUE && valasztott3.getBackground()!=Color.BLUE && valasztott4.getBackground()!=Color.BLUE){
+                valasztott2.setBackground(Color.BLUE);
+            } else if (valasztott3.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.BLUE && valasztott2.getBackground()!=Color.BLUE && valasztott4.getBackground()!=Color.BLUE) {
+                valasztott3.setBackground(Color.BLUE);
+            } else if (valasztott4.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.BLUE && valasztott2.getBackground()!=Color.BLUE && valasztott3.getBackground()!=Color.BLUE) {
+                valasztott4.setBackground(Color.BLUE);
+            }
+        } else if (gmb.getBackground() == Color.ORANGE) {
+            
+            if (valasztott1.getBackground() == Color.WHITE && valasztott2.getBackground()!=Color.ORANGE && valasztott3.getBackground()!=Color.ORANGE && valasztott4.getBackground()!=Color.ORANGE) {
+                valasztott1.setBackground(Color.ORANGE);
+            } else if (valasztott2.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.ORANGE &&valasztott3.getBackground()!=Color.ORANGE && valasztott4.getBackground()!=Color.ORANGE){
+                valasztott2.setBackground(Color.ORANGE);
+            } else if (valasztott3.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.ORANGE && valasztott2.getBackground()!=Color.ORANGE && valasztott4.getBackground()!=Color.ORANGE) {
+                valasztott3.setBackground(Color.ORANGE);
+            } else if (valasztott4.getBackground() == Color.WHITE && valasztott1.getBackground()!=Color.ORANGE && valasztott2.getBackground()!=Color.ORANGE && valasztott3.getBackground()!=Color.ORANGE) {
+                valasztott4.setBackground(Color.ORANGE);
+            }
+
         }
     }//GEN-LAST:event_szinekEvt
 
-    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -522,6 +554,10 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Ujjatek;
+    private javax.swing.JButton gepszin1;
+    private javax.swing.JButton gepszin2;
+    private javax.swing.JButton gepszin3;
+    private javax.swing.JButton gepszin4;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
@@ -581,11 +617,59 @@ public class Szinek_gui extends javax.swing.JFrame {
         gombLista.add(valasztott2);
         gombLista.add(valasztott3);
         gombLista.add(valasztott4);
-        
+
         for (int i = 0; i < gombLista.size(); i++) {
             JButton aktGomb = gombLista.get(i);
             aktGomb.setBackground(Color.WHITE);
         }
+
+    }
+
+    private int randomszam() {
+        Random rnd = new Random();
+        int veletlenszam;
         
+        veletlenszam=rnd.nextInt(1,6);
+        
+        
+        return veletlenszam;
+        
+    }
+
+    private void szinbeallit() {
+        negyszingeneralas();
+        gepszin1.setBackground(randomszinlista.get(0));
+        gepszin2.setBackground(randomszinlista.get(1));
+        gepszin3.setBackground(randomszinlista.get(2));
+        gepszin4.setBackground(randomszinlista.get(3));
+
+        
+    }
+
+    private void negyszingeneralas() {
+        int szamom=randomszam();
+        for (int i = 0; i < 4; i++) {
+            szamom=randomszam();
+            Color veletlenszin=randomszin(szamom);
+            randomszinlista.add(veletlenszin);
+        }
+    }
+
+    private Color randomszin(int randomszam) {
+        if (randomszam == 1) {
+        return Color.RED;
+    } else if (randomszam == 2) {
+        return Color.BLUE;
+    } else if (randomszam == 3) {
+        return Color.YELLOW;
+    } else if (randomszam == 4) {
+        return Color.ORANGE;
+    } else if (randomszam == 5) {
+        return Color.GREEN;
+    } else if (randomszam== 6) {
+        return Color.PINK;
+    } else {
+        return Color.BLACK;
+    }
     }
 }
