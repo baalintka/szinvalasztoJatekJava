@@ -18,23 +18,17 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     public Szinek_gui() {
         initComponents();
-        alapszinek();
-        negyszingeneralas();
+        alaphelyzet();
+        
 
     }
 
     private void alapszinek() {
-        
         kek.setBackground(Color.BLUE);
-        
         piros.setBackground(Color.RED);
-        
         sarga.setBackground(Color.YELLOW);
-        
         zold.setBackground(Color.GREEN);
-        
         narancs.setBackground(Color.ORANGE);
-        
         rozsaszin.setBackground(Color.PINK);
     }
 
@@ -620,6 +614,12 @@ public class Szinek_gui extends javax.swing.JFrame {
         randomszinlista.clear();
         veletlenszamlista.clear();
         szamaim.clear();
+        gombfeherites();
+        alapszinek();
+
+    }
+
+    private void gombfeherites() {
         gombLista.add(valasztott1);
         gombLista.add(valasztott2);
         gombLista.add(valasztott3);
@@ -629,7 +629,6 @@ public class Szinek_gui extends javax.swing.JFrame {
             JButton aktGomb = gombLista.get(i);
             aktGomb.setBackground(Color.WHITE);
         }
-
     }
 
     private int randomszam() {
@@ -655,7 +654,7 @@ public class Szinek_gui extends javax.swing.JFrame {
     }
 
     private void negyszingeneralas() {
-        int szamom=randomszam();
+        int szamom;
         while (veletlenszamlista.size()<4) {            
             szamom=randomszam();
             veletlenszamlista.add(szamom);
