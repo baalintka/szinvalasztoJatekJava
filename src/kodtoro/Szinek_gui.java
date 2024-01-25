@@ -3,7 +3,9 @@ package kodtoro;
 import com.sun.org.apache.bcel.internal.generic.RETURN;
 import java.awt.Color;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 import javax.swing.JButton;
 import sun.security.util.Length;
 
@@ -11,6 +13,8 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     ArrayList<JButton> gombLista = new ArrayList<>();
     ArrayList<Color> randomszinlista = new ArrayList<>();
+    Set<Integer>veletlenszamlista= new HashSet<Integer>();
+    ArrayList<Integer> szamaim = new ArrayList<>();
 
     public Szinek_gui() {
         initComponents();
@@ -614,6 +618,8 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     private void alaphelyzet() {
         randomszinlista.clear();
+        veletlenszamlista.clear();
+        szamaim.clear();
         gombLista.add(valasztott1);
         gombLista.add(valasztott2);
         gombLista.add(valasztott3);
@@ -638,6 +644,7 @@ public class Szinek_gui extends javax.swing.JFrame {
     }
 
     private void szinbeallit() {
+        
         negyszingeneralas();
         gepszin1.setBackground(randomszinlista.get(0));
         gepszin2.setBackground(randomszinlista.get(1));
@@ -649,18 +656,21 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     private void negyszingeneralas() {
         int szamom=randomszam();
-        for (int i = 0; i < 4; i++) {
+        while (veletlenszamlista.size()<4) {            
             szamom=randomszam();
-            Color veletlenszin=randomszin(szamom);
-           
-            randomszinlista.add(veletlenszin);
-            
-                   
-                
-                
-            
-            
+            veletlenszamlista.add(szamom);
         }
+        szamaim.addAll(veletlenszamlista);
+        
+        Color veletlenszin1=randomszin(szamaim.get(0));
+        Color veletlenszin2=randomszin(szamaim.get(1));
+        Color veletlenszin3=randomszin(szamaim.get(2));
+        Color veletlenszin4=randomszin(szamaim.get(3));
+        randomszinlista.add(veletlenszin1);
+        randomszinlista.add(veletlenszin2);
+        randomszinlista.add(veletlenszin3);
+        randomszinlista.add(veletlenszin4);     
+        
     }
 
     private Color randomszin(int randomszam) {
