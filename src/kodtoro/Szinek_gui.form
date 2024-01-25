@@ -54,17 +54,14 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="19" max="32767" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -75,157 +72,264 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="valasztott1" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Component id="valasztott2" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="valasztott3" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="valasztott4" min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
                       <Group type="102" attributes="0">
+                          <EmptySpace min="38" pref="38" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="jButton39" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton38" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Component id="jButton37" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButton36" min="-2" pref="36" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jButton31" min="-2" pref="36" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jButton30" min="-2" pref="36" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                      <Component id="jButton29" min="-2" pref="36" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="jButton28" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="talal8" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="talal6" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="talal5" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="talal7" min="-2" pref="16" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <Component id="jButton27" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jButton26" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                          <Component id="jButton25" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="jButton24" min="-2" pref="36" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Component id="jButton23" min="-2" pref="36" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jButton22" min="-2" pref="36" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                              <Component id="jButton21" min="-2" pref="36" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="jButton20" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal4" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal2" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Component id="jButton19" min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jButton18" min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                                  <Component id="jButton17" min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jButton16" min="-2" pref="36" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" attributes="0">
-                                                  <Component id="jButton15" min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jButton14" min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                                  <Component id="jButton13" min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jButton12" min="-2" pref="36" max="-2" attributes="0"/>
-                                              </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal1" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal3" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jButton47" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton46" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Component id="jButton45" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButton44" min="-2" pref="36" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace pref="53" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="zold" alignment="1" min="-2" pref="36" max="-2" attributes="0"/>
-                                      <Component id="piros" alignment="1" min="-2" pref="36" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="narancs" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                          <Component id="rozsaszin" min="-2" pref="36" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" attributes="0">
-                                          <Component id="kek" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="sarga" min="-2" pref="36" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="gepszin1" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="gepszin2" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal11" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal10" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal9" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal12" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal15" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal14" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal13" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal16" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal19" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal18" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal17" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal20" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal23" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal22" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal21" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal24" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal27" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal26" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal25" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal28" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal31" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal30" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal29" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal32" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal35" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal34" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal33" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal36" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="88" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="elso4" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="elso3" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                              <Component id="elso2" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="elso1" min="-2" pref="36" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="masodik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="masodik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                              <Component id="masodik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="masodik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="harmadik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="harmadik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                  <Component id="harmadik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="harmadik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="negyedik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="negyedik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                      <Component id="negyedik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="negyedik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="otodik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="otodik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="otodik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="otodik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="hatodik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="hatodik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                              <Component id="hatodik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="hatodik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="hetedik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="hetedik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                              <Component id="hetedik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="hetedik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="gepszin4" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Component id="nyolcadik4" min="-2" pref="36" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="gepszin3" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Component id="nyolcadik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Component id="nyolcadik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="nyolcadik1" min="-2" pref="36" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="kilencedik4" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="kilencedik3" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Component id="kilencedik2" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="kilencedik1" min="-2" pref="36" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="zold" alignment="1" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="piros" alignment="1" min="-2" pref="36" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="narancs" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="rozsaszin" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="kek" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="sarga" min="-2" pref="36" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="mentes" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="valasztott1" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="valasztott2" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Component id="valasztott3" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="valasztott4" min="-2" pref="36" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Component id="jButton11" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton10" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Component id="jButton9" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButton8" min="-2" pref="36" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jButton35" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton34" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Component id="jButton33" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButton32" min="-2" pref="36" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="tisztito" min="-2" pref="55" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="Ujjatek" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Ujjatek" min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="gepszin1" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="gepszin2" min="-2" pref="36" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="gepszin4" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="gepszin3" min="-2" pref="36" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="mentes" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
@@ -235,56 +339,24 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Ujjatek" min="-2" max="-2" attributes="0"/>
-                      <Component id="valasztott2" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="valasztott1" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="valasztott4" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="valasztott3" min="-2" pref="35" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="mentes" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton34" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton35" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton32" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton33" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton10" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton11" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton8" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton9" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton14" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton15" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton12" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton13" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton18" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton19" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton16" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton17" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton22" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton23" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton20" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton21" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                          </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="valasztott2" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="valasztott1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="valasztott3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="valasztott4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Ujjatek" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tisztito" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="mentes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="gepszin3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                               <Component id="gepszin4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
@@ -294,49 +366,216 @@
                               <Component id="gepszin2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                               <Component id="gepszin1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
-                      </Group>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton26" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton27" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton24" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton25" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton30" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton31" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton28" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="jButton29" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jButton38" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                                  <Component id="jButton39" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                                  <Component id="jButton36" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                                  <Component id="jButton37" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                                  <Component id="sarga" alignment="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sarga" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="kek" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="zold" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="rozsaszin" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="narancs" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <Component id="kek" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="piros" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="kilencedik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="kilencedik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="kilencedik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="kilencedik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="talal35" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="talal36" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="talal34" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="talal33" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton46" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton47" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton44" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="jButton45" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="zold" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="rozsaszin" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="narancs" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="nyolcadik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="nyolcadik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="nyolcadik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="nyolcadik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="hetedik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="hetedik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="hetedik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="hetedik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="hatodik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                      <Component id="hatodik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                      <Component id="hatodik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                      <Component id="hatodik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="otodik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                              <Component id="otodik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                              <Component id="otodik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                              <Component id="otodik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="negyedik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                      <Component id="negyedik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                      <Component id="negyedik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                      <Component id="negyedik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Group type="102" attributes="0">
+                                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                                              <Component id="harmadik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                              <Component id="harmadik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                              <Component id="harmadik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                              <Component id="harmadik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                          </Group>
+                                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                                              <Group type="102" attributes="0">
+                                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                                      <Component id="masodik3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                      <Component id="masodik4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                      <Component id="masodik1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                      <Component id="masodik2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                  </Group>
+                                                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                                      <Component id="elso3" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                      <Component id="elso4" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                      <Component id="elso1" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                      <Component id="elso2" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                                                                  </Group>
+                                                                              </Group>
+                                                                              <Group type="102" alignment="1" attributes="0">
+                                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                                      <Component id="talal8" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                      <Component id="talal7" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                  </Group>
+                                                                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                                      <Component id="talal6" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                      <Component id="talal5" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                  </Group>
+                                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                                      <Component id="talal4" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                      <Component id="talal3" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                  </Group>
+                                                                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                                      <Component id="talal2" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                      <Component id="talal1" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                                  </Group>
+                                                                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                                                              </Group>
+                                                                          </Group>
+                                                                      </Group>
+                                                                      <Group type="102" attributes="0">
+                                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                                              <Component id="talal11" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                              <Component id="talal12" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                          </Group>
+                                                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                                              <Component id="talal10" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                              <Component id="talal9" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                          </Group>
+                                                                      </Group>
+                                                                  </Group>
+                                                              </Group>
+                                                              <Group type="102" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="talal15" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                      <Component id="talal16" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="talal14" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                      <Component id="talal13" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="talal19" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                              <Component id="talal20" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="talal18" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                              <Component id="talal17" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="talal23" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                      <Component id="talal24" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="talal22" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                      <Component id="talal21" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal27" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal28" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="talal26" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal25" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="talal31" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="talal32" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="talal30" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="talal29" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
-                      <Component id="piros" min="-2" pref="35" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -370,77 +609,77 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="valasztott2ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton8">
+        <Component class="javax.swing.JButton" name="nyolcadik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton9">
+        <Component class="javax.swing.JButton" name="nyolcadik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton10">
+        <Component class="javax.swing.JButton" name="nyolcadik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton11">
+        <Component class="javax.swing.JButton" name="nyolcadik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton12">
+        <Component class="javax.swing.JButton" name="hetedik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton13">
+        <Component class="javax.swing.JButton" name="hetedik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton14">
+        <Component class="javax.swing.JButton" name="hetedik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton15">
+        <Component class="javax.swing.JButton" name="hetedik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton16">
+        <Component class="javax.swing.JButton" name="hatodik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton17">
+        <Component class="javax.swing.JButton" name="hatodik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton18">
+        <Component class="javax.swing.JButton" name="hatodik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton19">
+        <Component class="javax.swing.JButton" name="hatodik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton20">
+        <Component class="javax.swing.JButton" name="otodik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton21">
+        <Component class="javax.swing.JButton" name="otodik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton22">
+        <Component class="javax.swing.JButton" name="otodik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton23">
+        <Component class="javax.swing.JButton" name="otodik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton24">
+        <Component class="javax.swing.JButton" name="negyedik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton25">
+        <Component class="javax.swing.JButton" name="negyedik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton26">
+        <Component class="javax.swing.JButton" name="negyedik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton27">
+        <Component class="javax.swing.JButton" name="negyedik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton28">
+        <Component class="javax.swing.JButton" name="harmadik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton29">
+        <Component class="javax.swing.JButton" name="harmadik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton30">
+        <Component class="javax.swing.JButton" name="harmadik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton31">
+        <Component class="javax.swing.JButton" name="harmadik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton32">
+        <Component class="javax.swing.JButton" name="kilencedik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton33">
+        <Component class="javax.swing.JButton" name="kilencedik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton34">
+        <Component class="javax.swing.JButton" name="kilencedik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton35">
+        <Component class="javax.swing.JButton" name="kilencedik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton36">
+        <Component class="javax.swing.JButton" name="masodik1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton37">
+        <Component class="javax.swing.JButton" name="masodik2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton38">
+        <Component class="javax.swing.JButton" name="masodik3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton39">
+        <Component class="javax.swing.JButton" name="masodik4">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton44">
+        <Component class="javax.swing.JButton" name="elso1">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton45">
+        <Component class="javax.swing.JButton" name="elso2">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton46">
+        <Component class="javax.swing.JButton" name="elso3">
         </Component>
-        <Component class="javax.swing.JButton" name="jButton47">
+        <Component class="javax.swing.JButton" name="elso4">
         </Component>
         <Component class="javax.swing.JButton" name="zold">
           <Properties>
@@ -506,6 +745,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Ment&#xe9;s"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mentesActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="gepszin1">
         </Component>
@@ -514,6 +756,86 @@
         <Component class="javax.swing.JButton" name="gepszin3">
         </Component>
         <Component class="javax.swing.JButton" name="gepszin4">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal8">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal7">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal6">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal5">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal1">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal2">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal4">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal3">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal9">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal10">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal11">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal12">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal13">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal14">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal15">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal16">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal17">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal18">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal19">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal20">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal21">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal22">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal23">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal24">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal25">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal26">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal27">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal28">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal29">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal30">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal31">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal32">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal33">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal34">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal35">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal36">
+        </Component>
+        <Component class="javax.swing.JButton" name="tisztito">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="tiszt&#xed;t"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tisztitoActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
