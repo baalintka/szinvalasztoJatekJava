@@ -15,6 +15,8 @@ public class Szinek_gui extends javax.swing.JFrame {
     ArrayList<Color> randomszinlista = new ArrayList<>();
     Set<Integer>veletlenszamlista= new HashSet<Integer>();
     ArrayList<Integer> szamaim = new ArrayList<>();
+    
+    
 
     public Szinek_gui() {
         initComponents();
@@ -738,8 +740,10 @@ public class Szinek_gui extends javax.swing.JFrame {
     private void mentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mentesActionPerformed
         if (elso1.getBackground()==Color.WHITE) {
             elsokor();
-        }else if(elso1.getBackground()!=Color.WHITE){
+        }else if(masodik1.getBackground()==Color.WHITE){
             masodikkor();
+        }else if(harmadik1.getBackground()==Color.WHITE){
+            harmadikkor();
         }
         
     }//GEN-LAST:event_mentesActionPerformed
@@ -899,6 +903,38 @@ public class Szinek_gui extends javax.swing.JFrame {
         gombLista.add(elso2);
         gombLista.add(elso3);
         gombLista.add(elso4);
+        gombLista.add(masodik1);
+        gombLista.add(masodik2);
+        gombLista.add(masodik3);
+        gombLista.add(masodik4);
+        gombLista.add(harmadik1);
+        gombLista.add(harmadik2);
+        gombLista.add(harmadik3);
+        gombLista.add(harmadik4);
+        gombLista.add(negyedik1);
+        gombLista.add(negyedik2);
+        gombLista.add(negyedik3);
+        gombLista.add(negyedik4);
+        gombLista.add(otodik1);
+        gombLista.add(otodik2);
+        gombLista.add(otodik3);
+        gombLista.add(otodik4);
+        gombLista.add(hatodik1);
+        gombLista.add(hatodik2);
+        gombLista.add(hatodik3);
+        gombLista.add(hatodik4);
+        gombLista.add(hetedik1);
+        gombLista.add(hetedik2);
+        gombLista.add(hetedik3);
+        gombLista.add(hetedik4);
+        gombLista.add(nyolcadik1);
+        gombLista.add(hetedik2);
+        gombLista.add(hetedik3);
+        gombLista.add(hetedik4);
+        gombLista.add(hetedik1);
+        gombLista.add(hetedik2);
+        gombLista.add(hetedik3);
+        gombLista.add(hetedik4);
 
         for (int i = 0; i < gombLista.size(); i++) {
             JButton aktGomb = gombLista.get(i);
@@ -972,7 +1008,6 @@ public class Szinek_gui extends javax.swing.JFrame {
         Color v2=valasztott2.getBackground();
         Color v3=valasztott3.getBackground();
         Color v4=valasztott4.getBackground();
-        
         elso1.setBackground(v4);
         elso2.setBackground(v3);
         elso3.setBackground(v2);
@@ -984,10 +1019,20 @@ public class Szinek_gui extends javax.swing.JFrame {
         Color v2=valasztott2.getBackground();
         Color v3=valasztott3.getBackground();
         Color v4=valasztott4.getBackground();
-        
         masodik1.setBackground(v4);
         masodik2.setBackground(v3);
         masodik3.setBackground(v2);
         masodik4.setBackground(v1);
+    }
+
+    private void harmadikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        harmadik1.setBackground(v4);
+        harmadik2.setBackground(v3);
+        harmadik3.setBackground(v2);
+        harmadik4.setBackground(v1);
     }
 }
