@@ -744,6 +744,18 @@ public class Szinek_gui extends javax.swing.JFrame {
             masodikkor();
         }else if(harmadik1.getBackground()==Color.WHITE){
             harmadikkor();
+        }else if(negyedik1.getBackground()==Color.WHITE){
+            negyedikkor();
+        }else if(otodik1.getBackground()==Color.WHITE){
+            otodikkor();
+        }else if(hatodik1.getBackground()==Color.WHITE){
+            hatodikkor();
+        }else if(hetedik1.getBackground()==Color.WHITE){
+            hetedikkor();
+        }else if(nyolcadik1.getBackground()==Color.WHITE){
+           nyolcadikkor();
+        }else if(kilencedik1.getBackground()==Color.WHITE){
+           kilencedikkor();
         }
         
     }//GEN-LAST:event_mentesActionPerformed
@@ -928,13 +940,13 @@ public class Szinek_gui extends javax.swing.JFrame {
         gombLista.add(hetedik3);
         gombLista.add(hetedik4);
         gombLista.add(nyolcadik1);
-        gombLista.add(hetedik2);
-        gombLista.add(hetedik3);
-        gombLista.add(hetedik4);
-        gombLista.add(hetedik1);
-        gombLista.add(hetedik2);
-        gombLista.add(hetedik3);
-        gombLista.add(hetedik4);
+        gombLista.add(nyolcadik2);
+        gombLista.add(nyolcadik3);
+        gombLista.add(nyolcadik4);
+        gombLista.add(kilencedik1);
+        gombLista.add(kilencedik2);
+        gombLista.add(kilencedik3);
+        gombLista.add(kilencedik4);
 
         for (int i = 0; i < gombLista.size(); i++) {
             JButton aktGomb = gombLista.get(i);
@@ -1034,5 +1046,71 @@ public class Szinek_gui extends javax.swing.JFrame {
         harmadik2.setBackground(v3);
         harmadik3.setBackground(v2);
         harmadik4.setBackground(v1);
+    }
+
+    private void negyedikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        negyedik1.setBackground(v4);
+        negyedik2.setBackground(v3);
+        negyedik3.setBackground(v2);
+        negyedik4.setBackground(v1);
+    }
+
+    private void otodikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        otodik1.setBackground(v4);
+        otodik2.setBackground(v3);
+        otodik3.setBackground(v2);
+        otodik4.setBackground(v1);
+    }
+
+    private void hatodikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        hatodik1.setBackground(v4);
+        hatodik2.setBackground(v3);
+        hatodik3.setBackground(v2);
+        hatodik4.setBackground(v1);
+    }
+
+    private void hetedikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        hetedik1.setBackground(v4);
+        hetedik2.setBackground(v3);
+        hetedik3.setBackground(v2);
+        hetedik4.setBackground(v1);
+    }
+
+    private void nyolcadikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        nyolcadik1.setBackground(v4);
+        nyolcadik2.setBackground(v3);
+        nyolcadik3.setBackground(v2);
+        nyolcadik4.setBackground(v1);
+    }
+
+    private void kilencedikkor() {
+        Color v1=valasztott1.getBackground();
+        Color v2=valasztott2.getBackground();
+        Color v3=valasztott3.getBackground();
+        Color v4=valasztott4.getBackground();
+        kilencedik1.setBackground(v4);
+        kilencedik2.setBackground(v3);
+        kilencedik3.setBackground(v2);
+        kilencedik4.setBackground(v1);
     }
 }
