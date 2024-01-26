@@ -959,8 +959,9 @@ public class Szinek_gui extends javax.swing.JFrame {
     private int randomszam() {
         Random rnd = new Random();
         int veletlenszam;
-        
-        veletlenszam=rnd.nextInt(1,6);
+        int min=1;
+        int max=6;
+        veletlenszam=rnd.nextInt((max-min)+1)+min;
         
         
         return veletlenszam;
@@ -1010,7 +1011,7 @@ public class Szinek_gui extends javax.swing.JFrame {
         return Color.GREEN;
     } else if (randomszam== 6) {
         return Color.PINK;
-    } else {
+    } else  {
         return Color.BLACK;
     }
     }
