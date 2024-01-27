@@ -738,24 +738,24 @@ public class Szinek_gui extends javax.swing.JFrame {
     }//GEN-LAST:event_szinekEvt
 
     private void mentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mentesActionPerformed
-        if (elso1.getBackground()==Color.WHITE) {
-            elsokor();
-        }else if(masodik1.getBackground()==Color.WHITE){
-            masodikkor();
-        }else if(harmadik1.getBackground()==Color.WHITE){
-            harmadikkor();
-        }else if(negyedik1.getBackground()==Color.WHITE){
-            negyedikkor();
-        }else if(otodik1.getBackground()==Color.WHITE){
-            otodikkor();
-        }else if(hatodik1.getBackground()==Color.WHITE){
-            hatodikkor();
-        }else if(hetedik1.getBackground()==Color.WHITE){
-            hetedikkor();
-        }else if(nyolcadik1.getBackground()==Color.WHITE){
-           nyolcadikkor();
-        }else if(kilencedik1.getBackground()==Color.WHITE){
-           kilencedikkor();
+        if (elso1.getBackground()==Color.WHITE && elso2.getBackground()==Color.WHITE && elso3.getBackground()==Color.WHITE && elso4.getBackground()==Color.WHITE) {
+            korok(elso1,elso2,elso3,elso4);
+        }else if(masodik1.getBackground()==Color.WHITE && masodik2.getBackground()==Color.WHITE && masodik3.getBackground()==Color.WHITE && masodik4.getBackground()==Color.WHITE){
+            korok(masodik1, masodik2, masodik3, masodik4);
+        }else if(harmadik1.getBackground()==Color.WHITE && harmadik2.getBackground()==Color.WHITE && harmadik3.getBackground()==Color.WHITE && harmadik4.getBackground()==Color.WHITE){
+            korok(harmadik1, harmadik2, harmadik3, harmadik4);
+        }else if(negyedik1.getBackground()==Color.WHITE && negyedik2.getBackground()==Color.WHITE && negyedik3.getBackground()==Color.WHITE && negyedik4.getBackground()==Color.WHITE){
+            korok(negyedik1, negyedik2, negyedik3, negyedik4);
+        }else if(otodik1.getBackground()==Color.WHITE && otodik2.getBackground()==Color.WHITE && otodik3.getBackground()==Color.WHITE && otodik4.getBackground()==Color.WHITE){
+            korok(otodik1, otodik2, otodik3, otodik4);
+        }else if(hatodik1.getBackground()==Color.WHITE && hatodik2.getBackground()==Color.WHITE && hatodik3.getBackground()==Color.WHITE && hatodik4.getBackground()==Color.WHITE){
+            korok(hatodik1, hatodik2, hatodik3, hatodik4);
+        }else if(hetedik1.getBackground()==Color.WHITE && hetedik2.getBackground()==Color.WHITE && hetedik3.getBackground()==Color.WHITE && hetedik4.getBackground()==Color.WHITE){
+            korok(hetedik1, hetedik2, hetedik3, hetedik4);
+        }else if(nyolcadik1.getBackground()==Color.WHITE && nyolcadik2.getBackground()==Color.WHITE && nyolcadik3.getBackground()==Color.WHITE && nyolcadik4.getBackground()==Color.WHITE){
+            korok(nyolcadik1, nyolcadik2, nyolcadik3, nyolcadik4);
+        }else if(kilencedik1.getBackground()==Color.WHITE && kilencedik2.getBackground()==Color.WHITE && kilencedik3.getBackground()==Color.WHITE && kilencedik4.getBackground()==Color.WHITE){
+            korok(kilencedik1, kilencedik2, kilencedik3, kilencedik4);
         }
         
     }//GEN-LAST:event_mentesActionPerformed
@@ -1016,102 +1016,21 @@ public class Szinek_gui extends javax.swing.JFrame {
     }
     }
 
-    private void elsokor() {
+    private void korok(JButton elso1,JButton elso2,JButton elso3,JButton elso4) {
         Color v1=valasztott1.getBackground();
         Color v2=valasztott2.getBackground();
         Color v3=valasztott3.getBackground();
         Color v4=valasztott4.getBackground();
-        elso1.setBackground(v4);
-        elso2.setBackground(v3);
-        elso3.setBackground(v2);
-        elso4.setBackground(v1);
+        
+        if (!(v1== Color.WHITE && v2==Color.WHITE && v3==Color.WHITE && v4==Color.WHITE ))  {
+        
+            elso1.setBackground(v4);
+            elso2.setBackground(v3);
+            elso3.setBackground(v2);
+            elso4.setBackground(v1);
+        }
+        
     }
 
-    private void masodikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        masodik1.setBackground(v4);
-        masodik2.setBackground(v3);
-        masodik3.setBackground(v2);
-        masodik4.setBackground(v1);
-    }
-
-    private void harmadikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        harmadik1.setBackground(v4);
-        harmadik2.setBackground(v3);
-        harmadik3.setBackground(v2);
-        harmadik4.setBackground(v1);
-    }
-
-    private void negyedikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        negyedik1.setBackground(v4);
-        negyedik2.setBackground(v3);
-        negyedik3.setBackground(v2);
-        negyedik4.setBackground(v1);
-    }
-
-    private void otodikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        otodik1.setBackground(v4);
-        otodik2.setBackground(v3);
-        otodik3.setBackground(v2);
-        otodik4.setBackground(v1);
-    }
-
-    private void hatodikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        hatodik1.setBackground(v4);
-        hatodik2.setBackground(v3);
-        hatodik3.setBackground(v2);
-        hatodik4.setBackground(v1);
-    }
-
-    private void hetedikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        hetedik1.setBackground(v4);
-        hetedik2.setBackground(v3);
-        hetedik3.setBackground(v2);
-        hetedik4.setBackground(v1);
-    }
-
-    private void nyolcadikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        nyolcadik1.setBackground(v4);
-        nyolcadik2.setBackground(v3);
-        nyolcadik3.setBackground(v2);
-        nyolcadik4.setBackground(v1);
-    }
-
-    private void kilencedikkor() {
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        kilencedik1.setBackground(v4);
-        kilencedik2.setBackground(v3);
-        kilencedik3.setBackground(v2);
-        kilencedik4.setBackground(v1);
-    }
+ 
 }
