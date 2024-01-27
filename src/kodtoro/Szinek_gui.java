@@ -1157,13 +1157,23 @@ public class Szinek_gui extends javax.swing.JFrame {
         Color g2 = gepszin2.getBackground();
         Color g3 = gepszin3.getBackground();
         Color g4 = gepszin4.getBackground();
-        Color v1=valasztott1.getBackground();
-        Color v2=valasztott2.getBackground();
-        Color v3=valasztott3.getBackground();
-        Color v4=valasztott4.getBackground();
-        if (g1==v4) {
+        Color v1=valasztott4.getBackground();
+        Color v2=valasztott3.getBackground();
+        Color v3=valasztott2.getBackground();
+        Color v4=valasztott1.getBackground();
+        if (g1==v1) {
             talal1.setBackground(Color.WHITE);
-        } 
+        }
+        if(g2==v2){
+             talal2.setBackground(Color.WHITE);
+        }
+        if(g3==v3){
+             talal3.setBackground(Color.WHITE);
+        }
+        if(g4==v4){
+             talal4.setBackground(Color.WHITE);
+        }
+        
     }
 
  
