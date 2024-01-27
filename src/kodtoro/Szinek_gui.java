@@ -738,23 +738,23 @@ public class Szinek_gui extends javax.swing.JFrame {
     }//GEN-LAST:event_szinekEvt
 
     private void mentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mentesActionPerformed
-        if (elso1.getBackground()==Color.WHITE && elso2.getBackground()==Color.WHITE && elso3.getBackground()==Color.WHITE && elso4.getBackground()==Color.WHITE) {
+        if (valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && elso1.getBackground()==Color.WHITE) {
             korok(elso1,elso2,elso3,elso4);
-        }else if(masodik1.getBackground()==Color.WHITE && masodik2.getBackground()==Color.WHITE && masodik3.getBackground()==Color.WHITE && masodik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && masodik1.getBackground()==Color.WHITE){
             korok(masodik1, masodik2, masodik3, masodik4);
-        }else if(harmadik1.getBackground()==Color.WHITE && harmadik2.getBackground()==Color.WHITE && harmadik3.getBackground()==Color.WHITE && harmadik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && harmadik1.getBackground()==Color.WHITE){
             korok(harmadik1, harmadik2, harmadik3, harmadik4);
-        }else if(negyedik1.getBackground()==Color.WHITE && negyedik2.getBackground()==Color.WHITE && negyedik3.getBackground()==Color.WHITE && negyedik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && negyedik1.getBackground()==Color.WHITE){
             korok(negyedik1, negyedik2, negyedik3, negyedik4);
-        }else if(otodik1.getBackground()==Color.WHITE && otodik2.getBackground()==Color.WHITE && otodik3.getBackground()==Color.WHITE && otodik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && otodik1.getBackground()==Color.WHITE){
             korok(otodik1, otodik2, otodik3, otodik4);
-        }else if(hatodik1.getBackground()==Color.WHITE && hatodik2.getBackground()==Color.WHITE && hatodik3.getBackground()==Color.WHITE && hatodik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && hatodik1.getBackground()==Color.WHITE){
             korok(hatodik1, hatodik2, hatodik3, hatodik4);
-        }else if(hetedik1.getBackground()==Color.WHITE && hetedik2.getBackground()==Color.WHITE && hetedik3.getBackground()==Color.WHITE && hetedik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && hetedik1.getBackground()==Color.WHITE){
             korok(hetedik1, hetedik2, hetedik3, hetedik4);
-        }else if(nyolcadik1.getBackground()==Color.WHITE && nyolcadik2.getBackground()==Color.WHITE && nyolcadik3.getBackground()==Color.WHITE && nyolcadik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && nyolcadik1.getBackground()==Color.WHITE){
             korok(nyolcadik1, nyolcadik2, nyolcadik3, nyolcadik4);
-        }else if(kilencedik1.getBackground()==Color.WHITE && kilencedik2.getBackground()==Color.WHITE && kilencedik3.getBackground()==Color.WHITE && kilencedik4.getBackground()==Color.WHITE){
+        }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && kilencedik1.getBackground()==Color.WHITE){
             korok(kilencedik1, kilencedik2, kilencedik3, kilencedik4);
         }
         
