@@ -107,16 +107,16 @@ public class Szinek_gui extends javax.swing.JFrame {
         talal3 = new javax.swing.JButton();
         talal9 = new javax.swing.JButton();
         talal10 = new javax.swing.JButton();
-        talal11 = new javax.swing.JButton();
         talal12 = new javax.swing.JButton();
+        talal11 = new javax.swing.JButton();
         talal13 = new javax.swing.JButton();
         talal14 = new javax.swing.JButton();
-        talal15 = new javax.swing.JButton();
         talal16 = new javax.swing.JButton();
+        talal15 = new javax.swing.JButton();
         talal17 = new javax.swing.JButton();
         talal18 = new javax.swing.JButton();
-        talal19 = new javax.swing.JButton();
         talal20 = new javax.swing.JButton();
+        talal19 = new javax.swing.JButton();
         talal21 = new javax.swing.JButton();
         talal22 = new javax.swing.JButton();
         talal23 = new javax.swing.JButton();
@@ -307,28 +307,28 @@ public class Szinek_gui extends javax.swing.JFrame {
                                             .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(talal11, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(talal12, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(talal10, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(4, 4, 4)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(talal9, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(talal12, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(talal11, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(talal15, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(talal16, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(talal14, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(4, 4, 4)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(talal13, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(talal16, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(talal15, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(talal19, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(talal20, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(talal18, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(4, 4, 4)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(talal17, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(talal20, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(talal19, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(talal23, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -645,24 +645,24 @@ public class Szinek_gui extends javax.swing.JFrame {
                                                                             .addGap(3, 3, 3))))
                                                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                        .addComponent(talal11, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                        .addComponent(talal12, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                        .addComponent(talal12, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                        .addComponent(talal11, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                                         .addComponent(talal10, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                         .addComponent(talal9, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                                                         .addGroup(jPanel1Layout.createSequentialGroup()
                                                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addComponent(talal15, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                .addComponent(talal16, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                .addComponent(talal16, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addComponent(talal15, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                                 .addComponent(talal14, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                 .addComponent(talal13, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(talal19, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(talal20, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                        .addComponent(talal20, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(talal19, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                         .addComponent(talal18, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -843,11 +843,13 @@ public class Szinek_gui extends javax.swing.JFrame {
     private void mentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mentesActionPerformed
         if (valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && elso1.getBackground()==Color.WHITE) {
             korok(elso1,elso2,elso3,elso4);
-            osszehasonlit();
+            osszehasonlit(talal1,talal2,talal3,talal4);
         }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && masodik1.getBackground()==Color.WHITE){
             korok(masodik1, masodik2, masodik3, masodik4);
+            osszehasonlit(talal5,talal6,talal7,talal8);
         }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && harmadik1.getBackground()==Color.WHITE){
             korok(harmadik1, harmadik2, harmadik3, harmadik4);
+            osszehasonlit(talal9,talal10,talal11,talal12);
         }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && negyedik1.getBackground()==Color.WHITE){
             korok(negyedik1, negyedik2, negyedik3, negyedik4);
         }else if(valasztott1.getBackground()!=Color.WHITE && valasztott2.getBackground()!=Color.WHITE && valasztott3.getBackground()!=Color.WHITE && valasztott4.getBackground()!=Color.WHITE && otodik1.getBackground()==Color.WHITE){
@@ -1072,6 +1074,24 @@ public class Szinek_gui extends javax.swing.JFrame {
         talal2.setBackground(Color.GRAY);
         talal3.setBackground(Color.GRAY);
         talal4.setBackground(Color.GRAY);
+        talal5.setBackground(Color.GRAY);
+        talal6.setBackground(Color.GRAY);
+        talal7.setBackground(Color.GRAY);
+        talal8.setBackground(Color.GRAY);
+        talal9.setBackground(Color.GRAY);
+        talal10.setBackground(Color.GRAY);
+        talal11.setBackground(Color.GRAY);
+        talal12.setBackground(Color.GRAY);
+        talal13.setBackground(Color.GRAY);
+        talal14.setBackground(Color.GRAY);
+        talal15.setBackground(Color.GRAY);
+        talal16.setBackground(Color.GRAY);
+        talal17.setBackground(Color.GRAY);
+        talal18.setBackground(Color.GRAY);
+        talal19.setBackground(Color.GRAY);
+        talal20.setBackground(Color.GRAY);
+        
+        
         
     }
     
@@ -1152,7 +1172,7 @@ public class Szinek_gui extends javax.swing.JFrame {
         
     }
 
-    private void osszehasonlit() {
+    private void osszehasonlit(JButton talal1,JButton talal2,JButton talal3,JButton talal4) {
         Color g1 = gepszin1.getBackground();
         Color g2 = gepszin2.getBackground();
         Color g3 = gepszin3.getBackground();
@@ -1161,17 +1181,46 @@ public class Szinek_gui extends javax.swing.JFrame {
         Color v2=valasztott3.getBackground();
         Color v3=valasztott2.getBackground();
         Color v4=valasztott1.getBackground();
-        if (g1==v1) {
+        
+        if(v1==g2){
             talal1.setBackground(Color.WHITE);
+        }else if(v1==g3){
+            talal1.setBackground(Color.WHITE);
+        }else if(v1==g4){
+            talal1.setBackground(Color.WHITE);
+        };
+        if(v2==g1){
+            talal2.setBackground(Color.WHITE);
+        }else if(v2==g3){
+            talal2.setBackground(Color.WHITE);
+        }else if(v2==g4){
+            talal2.setBackground(Color.WHITE);
+        };
+        if(v3==g1){
+            talal3.setBackground(Color.WHITE);
+        }else if(v3==g2){
+            talal3.setBackground(Color.WHITE);
+        }else if(v3==g4){
+            talal3.setBackground(Color.WHITE);
+        };
+        if(v4==g1){
+            talal4.setBackground(Color.WHITE);
+        }else if(v4==g3){
+            talal4.setBackground(Color.WHITE);
+        }else if(v4==g2){
+            talal4.setBackground(Color.WHITE);
+        };
+        if (g1==v1) {
+            talal1.setBackground(Color.BLACK);
         }
         if(g2==v2){
-             talal2.setBackground(Color.WHITE);
+             talal2.setBackground(Color.BLACK);
         }
         if(g3==v3){
-             talal3.setBackground(Color.WHITE);
+             talal3.setBackground(Color.BLACK);
         }
         if(g4==v4){
-             talal4.setBackground(Color.WHITE);
+             talal4.setBackground(Color.BLACK);
         }
         
     }

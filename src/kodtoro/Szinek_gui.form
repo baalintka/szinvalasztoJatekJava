@@ -132,35 +132,35 @@
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="talal11" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal12" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                               <Component id="talal10" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="talal9" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
-                                              <Component id="talal12" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal11" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="talal15" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal16" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                               <Component id="talal14" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="talal13" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
-                                              <Component id="talal16" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal15" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="talal19" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal20" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                               <Component id="talal18" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="talal17" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
-                                              <Component id="talal20" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="talal19" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" attributes="0">
@@ -567,8 +567,8 @@
                                                                   </Group>
                                                                   <Group type="102" attributes="0">
                                                                       <Group type="103" groupAlignment="0" attributes="0">
-                                                                          <Component id="talal11" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                                                           <Component id="talal12" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                          <Component id="talal11" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                                                       </Group>
                                                                       <EmptySpace min="-2" max="-2" attributes="0"/>
                                                                       <Group type="103" groupAlignment="0" attributes="0">
@@ -580,8 +580,8 @@
                                                           </Group>
                                                           <Group type="102" attributes="0">
                                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                                  <Component id="talal15" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                                                   <Component id="talal16" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                                  <Component id="talal15" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                                               </Group>
                                                               <EmptySpace min="-2" max="-2" attributes="0"/>
                                                               <Group type="103" groupAlignment="0" attributes="0">
@@ -593,8 +593,8 @@
                                                   </Group>
                                                   <Group type="102" attributes="0">
                                                       <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="talal19" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                                           <Component id="talal20" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                                                          <Component id="talal19" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                                                       </Group>
                                                       <EmptySpace min="-2" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="0" attributes="0">
@@ -845,25 +845,25 @@
         </Component>
         <Component class="javax.swing.JButton" name="talal10">
         </Component>
-        <Component class="javax.swing.JButton" name="talal11">
-        </Component>
         <Component class="javax.swing.JButton" name="talal12">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal11">
         </Component>
         <Component class="javax.swing.JButton" name="talal13">
         </Component>
         <Component class="javax.swing.JButton" name="talal14">
         </Component>
-        <Component class="javax.swing.JButton" name="talal15">
-        </Component>
         <Component class="javax.swing.JButton" name="talal16">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal15">
         </Component>
         <Component class="javax.swing.JButton" name="talal17">
         </Component>
         <Component class="javax.swing.JButton" name="talal18">
         </Component>
-        <Component class="javax.swing.JButton" name="talal19">
-        </Component>
         <Component class="javax.swing.JButton" name="talal20">
+        </Component>
+        <Component class="javax.swing.JButton" name="talal19">
         </Component>
         <Component class="javax.swing.JButton" name="talal21">
         </Component>
