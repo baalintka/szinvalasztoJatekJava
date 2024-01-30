@@ -22,6 +22,7 @@ public class Szinek_gui extends javax.swing.JFrame {
 
     public Szinek_gui() {
         initComponents();
+        ujjatektext.setVisible(false);
         alaphelyzet();
         
 
@@ -141,6 +142,7 @@ public class Szinek_gui extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
+        ujjatektext = new javax.swing.JLabel();
 
         jButton43.setBackground(new java.awt.Color(204, 102, 0));
 
@@ -668,14 +670,21 @@ public class Szinek_gui extends javax.swing.JFrame {
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel13.setText("Kódtörő");
 
+        ujjatektext.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        ujjatektext.setForeground(new java.awt.Color(51, 153, 0));
+        ujjatektext.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        ujjatektext.setText("Indulhat a játék!");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(175, 175, 175)
+                .addGap(166, 166, 166)
                 .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(27, 27, 27)
+                .addComponent(ujjatektext, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 482, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -683,7 +692,9 @@ public class Szinek_gui extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ujjatektext, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -695,6 +706,8 @@ public class Szinek_gui extends javax.swing.JFrame {
     private void UjjatekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UjjatekActionPerformed
         alaphelyzet();
         negyszingeneralas();
+        ujjatekfelirat();
+        
     }//GEN-LAST:event_UjjatekActionPerformed
 
     private void valasztott1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_valasztott1ActionPerformed
@@ -966,6 +979,7 @@ public class Szinek_gui extends javax.swing.JFrame {
     private javax.swing.JButton talal8;
     private javax.swing.JButton talal9;
     private javax.swing.JButton tisztito;
+    private javax.swing.JLabel ujjatektext;
     private javax.swing.JButton valasztott1;
     private javax.swing.JButton valasztott2;
     private javax.swing.JButton valasztott3;
@@ -1189,6 +1203,10 @@ public class Szinek_gui extends javax.swing.JFrame {
             ImageIcon icon = new ImageIcon("kepek/smiley.png");
         JOptionPane.showMessageDialog(null, "Gratulálok! Nyertél!", "Vége!", 0, icon);
         }
+    }
+
+    private void ujjatekfelirat() {
+        ujjatektext.setVisible(true);
     }
 
  
