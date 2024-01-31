@@ -838,6 +838,7 @@ public class Szinek_gui extends javax.swing.JFrame {
             if ((randomszinlista.get(0)!=valasztott4.getBackground())||(randomszinlista.get(1)!=valasztott3.getBackground())||(randomszinlista.get(2)!=valasztott2.getBackground())||(randomszinlista.get(3)!=valasztott1.getBackground())) {
                 ImageIcon icon = new ImageIcon("kepek/szomoru.png");
                 JOptionPane.showMessageDialog(null, "Sajnos vesztettél:(", "Vége!", 0, icon);
+                alaphelyzet();
         }
             
         }
@@ -1200,8 +1201,10 @@ public class Szinek_gui extends javax.swing.JFrame {
              talal4.setBackground(Color.BLACK);
         }
         if ((g1==v1)&&(g2==v2)&&(g3==v3)&&(g4==v4)) {
+            
             ImageIcon icon = new ImageIcon("kepek/smiley.png");
-        JOptionPane.showMessageDialog(null, "Gratulálok! Nyertél!", "Vége!", 0, icon);
+            JOptionPane.showMessageDialog(null, "Gratulálok! Nyertél!", "Vége!", 0, icon);
+            alaphelyzet();
         }
     }
 
