@@ -1159,10 +1159,35 @@ public class Szinek_gui extends javax.swing.JFrame {
         Color v2=valasztott3.getBackground();
         Color v3=valasztott2.getBackground();
         Color v4=valasztott1.getBackground();
-        hasonlit(v1,g2,g3,g4);
-        hasonlit(v2,g2,g3,g4);
-        hasonlit(v3,g2,g3,g4);
-        hasonlit(v4,g2,g3,g4);
+        
+        if(v1==g2){
+            talal1.setBackground(Color.WHITE);
+        }else if(v1==g3){
+            talal1.setBackground(Color.WHITE);
+        }else if(v1==g4){
+            talal1.setBackground(Color.WHITE);
+        };
+        if(v2==g1){
+            talal2.setBackground(Color.WHITE);
+        }else if(v2==g3){
+            talal2.setBackground(Color.WHITE);
+        }else if(v2==g4){
+            talal2.setBackground(Color.WHITE);
+        };
+        if(v3==g1){
+            talal3.setBackground(Color.WHITE);
+        }else if(v3==g2){
+            talal3.setBackground(Color.WHITE);
+        }else if(v3==g4){
+            talal3.setBackground(Color.WHITE);
+        };
+        if(v4==g1){
+            talal4.setBackground(Color.WHITE);
+        }else if(v4==g3){
+            talal4.setBackground(Color.WHITE);
+        }else if(v4==g2){
+            talal4.setBackground(Color.WHITE);
+        };
         if (g1==v1) {
             talal1.setBackground(Color.BLACK);
         }
